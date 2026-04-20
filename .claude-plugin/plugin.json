@@ -1,6 +1,6 @@
 {
   "name": "thu-forge",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Forge a Quarto book (.qmd chapters) into a thuthesis-formatted PDF dissertation. Orchestrates chapter splitting, heading demotion, citation conversion, image path fixing, and BibTeX integration via XeLaTeX. Uses the upstream thuthesis LaTeX class (https://github.com/tuna/thuthesis) — not affiliated with or endorsed by the thuthesis maintainers.",
   "author": {
     "name": "Adrian",

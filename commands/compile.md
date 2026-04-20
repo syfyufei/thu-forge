@@ -47,7 +47,7 @@ Stale `CHAPTER_GROUPS` indices cause **silent content corruption**: wrong chapte
    - First entry of each group must match the YAML title of the corresponding `.qmd`
    - Entry count per group must match the number of `#` headings in that `.qmd`
 
-4. If any mismatch → update `CHAPTER_GROUPS`. See [`references/chapter-groups.md`](../references/chapter-groups.md) for the full procedure.
+4. If any mismatch → update `CHAPTER_GROUPS`. See [`references/chapter-groups.md`](../skills/thu-forge/references/chapter-groups.md) for the full procedure.
 
 **Warning signs of stale CHAPTER_GROUPS:**
 - Build log shows `⚠️ 章节 X 超出范围`
@@ -78,7 +78,7 @@ grep -n 'File.*not found' thuthesis/main.log
 ### Step 6 — Fix and Iterate
 
 If errors found:
-1. Consult [`references/pitfalls.md`](../references/pitfalls.md) — check the symptom table
+1. Consult [`references/pitfalls.md`](../skills/thu-forge/references/pitfalls.md) — check the symptom table
 2. Apply the fix
 3. Re-run `bash thuthesis/recompile.sh` (faster than full build for LaTeX-only fixes)
 4. Repeat until log shows 0 errors
@@ -109,7 +109,7 @@ Open `thuthesis/main.pdf` and confirm:
 | Bookmark warnings | Pitfall 10 | `\providecommand{\bookmarksetup}[1]{}` |
 | Wrong chapters merged / `⚠️ 章节 X 超出范围` | Pitfall 11 | Recount `\chapter{}` in `index.tex`, update `CHAPTER_GROUPS` |
 
-Full details: [`references/pitfalls.md`](../references/pitfalls.md)
+Full details: [`references/pitfalls.md`](../skills/thu-forge/references/pitfalls.md)
 
 ## Important Notes
 

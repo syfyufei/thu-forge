@@ -1,6 +1,7 @@
 ---
 name: thu-forge
 description: Forge a Quarto book dissertation (.qmd chapters) into a thuthesis-formatted PDF via XeLaTeX. Trigger when the user asks to compile, build, or render a Quarto-based Tsinghua thesis, or when troubleshooting LaTeX/BibTeX errors in such a project.
+allowed-tools: Read Grep Glob Bash(bash *) Bash(python3 *) Bash(quarto *) Bash(xelatex *) Bash(bibtex *) Bash(grep *)
 ---
 
 # thu-forge
@@ -36,7 +37,7 @@ This skill is an **independent build orchestrator**. It does not bundle, modify,
 /thu-forge:compile
 ```
 
-See [`commands/compile.md`](commands/compile.md) for the full step-by-step execution checklist.
+See [`commands/compile.md`](../../commands/compile.md) for the full step-by-step execution checklist.
 
 ## Reference Docs
 

@@ -1,11 +1,13 @@
 ---
-name: thuthesis-compiler
-description: Compile Quarto book (.qmd chapters) into a thuthesis-formatted PDF dissertation. Trigger when the user asks to compile, build, or render the dissertation to PDF, or when troubleshooting LaTeX/BibTeX errors in a thuthesis project.
+name: thu-forge
+description: Forge a Quarto book dissertation (.qmd chapters) into a thuthesis-formatted PDF via XeLaTeX. Trigger when the user asks to compile, build, or render a Quarto-based Tsinghua thesis, or when troubleshooting LaTeX/BibTeX errors in such a project.
 ---
 
-# thuthesis Compiler
+# thu-forge
 
-This skill compiles a Quarto book dissertation (`.qmd` chapters) into a thuthesis-formatted PDF via XeLaTeX. It orchestrates chapter splitting, heading demotion, citation conversion, image path fixing, and BibTeX integration.
+`thu-forge` orchestrates the build pipeline that turns a [Quarto](https://quarto.org/) book (`.qmd` chapters) into a PDF typeset with the [thuthesis](https://github.com/tuna/thuthesis) LaTeX class. It handles chapter splitting, heading demotion, citation conversion, image path fixing, and BibTeX integration.
+
+This skill is an **independent build orchestrator**. It does not bundle, modify, or redistribute `thuthesis`. Users must obtain the upstream `thuthesis` class from <https://github.com/tuna/thuthesis> themselves. This project is not affiliated with or endorsed by the thuthesis maintainers (TUNA).
 
 ## Pipeline
 
@@ -31,7 +33,7 @@ This skill compiles a Quarto book dissertation (`.qmd` chapters) into a thuthesi
 ## Invocation
 
 ```
-/thuthesis-compiler:compile
+/thu-forge:compile
 ```
 
 See [`commands/compile.md`](commands/compile.md) for the full step-by-step execution checklist.
@@ -39,4 +41,4 @@ See [`commands/compile.md`](commands/compile.md) for the full step-by-step execu
 ## Reference Docs
 
 - [`references/chapter-groups.md`](references/chapter-groups.md) — How to update `CHAPTER_GROUPS` when chapter structure changes
-- [`references/pitfalls.md`](references/pitfalls.md) — 11 known pitfalls with diagnosis and fixes
+- [`references/pitfalls.md`](references/pitfalls.md) — Known pitfalls with diagnosis and fixes

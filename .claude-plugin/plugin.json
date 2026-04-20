@@ -1,12 +1,12 @@
 {
-  "name": "thuthesis-compiler",
+  "name": "thu-forge",
   "version": "0.1.0",
-  "description": "Compile Quarto book (.qmd chapters) into a thuthesis-formatted PDF dissertation. Handles chapter splitting, heading demotion, citation conversion, image path fixing, and BibTeX integration via XeLaTeX.",
+  "description": "Forge a Quarto book (.qmd chapters) into a thuthesis-formatted PDF dissertation. Orchestrates chapter splitting, heading demotion, citation conversion, image path fixing, and BibTeX integration via XeLaTeX. Uses the upstream thuthesis LaTeX class (https://github.com/tuna/thuthesis) — not affiliated with or endorsed by the thuthesis maintainers.",
   "author": {
     "name": "Adrian",
     "email": "syfyufei@gmail.com"
   },
-  "repository": "https://github.com/syfyufei/thuthesis-compiler",
+  "repository": "https://github.com/syfyufei/thu-forge",
   "keywords": ["latex", "thuthesis", "quarto", "dissertation", "phd", "xelatex", "academic"],
   "license": "MIT",
   "commands": [

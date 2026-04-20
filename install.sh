@@ -2,7 +2,7 @@
 
 set -e
 
-echo "Installing thuthesis-compiler..."
+echo "Installing thu-forge..."
 echo ""
 
 MARKETPLACE_PATH="$(cd "$(dirname "$0")/.." && pwd)"
@@ -10,11 +10,11 @@ echo "Marketplace path: $MARKETPLACE_PATH"
 
 claude plugin marketplace add "$MARKETPLACE_PATH" 2>/dev/null || true
 
-echo "Installing thuthesis-compiler..."
-claude plugin install thuthesis-compiler
+echo "Installing thu-forge..."
+claude plugin install thu-forge
 
 echo ""
-echo "thuthesis-compiler installed successfully!"
+echo "thu-forge installed successfully!"
 echo ""
-echo "Usage: /thuthesis-compiler:compile"
+echo "Usage: /thu-forge:compile"
 echo ""

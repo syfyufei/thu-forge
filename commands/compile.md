@@ -1,5 +1,5 @@
 ---
-description: Compile a Quarto book dissertation into thuthesis-formatted PDF. Runs the full pipeline: quarto render → chapter splitting → XeLaTeX × 3 + BibTeX → main.pdf.
+description: Forge a Quarto book dissertation into a thuthesis-formatted PDF. Runs the full pipeline: quarto render → chapter splitting → XeLaTeX × 3 + BibTeX → main.pdf.
 ---
 
 ## Goal

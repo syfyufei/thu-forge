@@ -111,8 +111,8 @@ project/
 
 ## ✦ 参考文档
 
-- [`references/chapter-groups.md`](references/chapter-groups.md) — 章节结构变化时如何更新 `CHAPTER_GROUPS`*（避免静默内容损坏的关键）*
-- [`references/pitfalls.md`](references/pitfalls.md) — 已知陷阱清单：症状、根因、修复方法
+- [`skills/thu-forge/references/chapter-groups.md`](skills/thu-forge/references/chapter-groups.md) — 章节结构变化时如何更新 `CHAPTER_GROUPS`*（避免静默内容损坏的关键）*
+- [`skills/thu-forge/references/pitfalls.md`](skills/thu-forge/references/pitfalls.md) — 已知陷阱清单：症状、根因、修复方法
 
 ---
 

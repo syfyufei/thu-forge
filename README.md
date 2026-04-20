@@ -111,8 +111,8 @@ project/
 
 ## ✦ Reference docs
 
-- [`references/chapter-groups.md`](references/chapter-groups.md) — how to update `CHAPTER_GROUPS` when chapter structure changes *(critical for avoiding silent content corruption)*
-- [`references/pitfalls.md`](references/pitfalls.md) — known pitfalls with symptoms, root causes, and fixes
+- [`skills/thu-forge/references/chapter-groups.md`](skills/thu-forge/references/chapter-groups.md) — how to update `CHAPTER_GROUPS` when chapter structure changes *(critical for avoiding silent content corruption)*
+- [`skills/thu-forge/references/pitfalls.md`](skills/thu-forge/references/pitfalls.md) — known pitfalls with symptoms, root causes, and fixes
 
 ---
 
